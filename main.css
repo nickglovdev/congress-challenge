@@ -1,31 +1,45 @@
-header h1 {
+.banner {
+    width: 100%;
+    height: 6em;
+    background: #54545436;
+    margin-bottom: 1em;
+}
+
+.banner__image {
+    width: 20em;
+    height: 6em;
+}
+
+.rep__name {
+    margin: 0px 0 5px 0;
+    font-size: 2em;
+}
+.rep__district {
     margin: 0px 0 5px 0;
 }
 
-.rep__info h2, .rep__info h3 {
+.rep__party{
     margin: 3px 0 3px 0;
 }
 
-.rep__committees h3 {
+
+.comittees__title {
     margin-bottom: 5px;
 }
 
-.rep__committees ul {
+.comittees__list {
     padding-left: 16px;
     margin-top:0;
-}
-
-.rep__votes h3 {
-    margin-bottom: 5px;
 }
 
 .votes {
     border-collapse: collapse;
 }
 
- .votes td, .votes th {
-        border: 1px solid #999;
-        padding: 0.5rem;
-        text-align:center;
+.vote_title, .vote_info {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align:center;
 }
+
 
