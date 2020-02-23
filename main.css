@@ -1,7 +1,7 @@
 .mainHeader {
     width: 100%;
     height: 6em;
-    background: #54545436;
+    background: #0000004a;
     margin-bottom: 1em;
     display: flex;
 
@@ -10,6 +10,37 @@
 .header__image {
     width: 24em;
     height: 6em;
+}
+
+.nav__links {
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    margin-top:2.3em;   
+}
+
+.nav__list {
+    padding-right: 1em;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color:white;
+}
+.socialMedia__icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    color: white;
+    font-size: 2em;
+}
+
+.icons__list {
+    list-style:none;
 }
 
 .rep__name {
