@@ -10,6 +10,7 @@
 .header__image {
     width: 24em;
     height: 6em;
+    padding: 0 4em;
 }
 
 .nav__links {
@@ -32,11 +33,13 @@
 .socialMedia__icons {
     display: flex;
     flex-direction: row;
+    margin-top: 2em;
 }
 
 .icons {
     color: white;
     font-size: 2em;
+    padding-right: 1em;
 }
 
 .icons__list {
